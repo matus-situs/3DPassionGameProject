@@ -133,10 +133,17 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 1
-        functionName: playerGoUp
+      - time: 0.92488956
+        functionName: playerJump
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: 983fe33e3181002498fb2b75f730fec3, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 1
+        functionName: playerInAir
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 389bc255eac833c47bae72c36c406712, type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
@@ -201,7 +208,7 @@ ModelImporter:
       - time: 1
         functionName: playerLanded
         data: 
-        objectReferenceParameter: {fileID: 11500000, guid: 983fe33e3181002498fb2b75f730fec3, type: 3}
+        objectReferenceParameter: {fileID: 11500000, guid: 389bc255eac833c47bae72c36c406712, type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
